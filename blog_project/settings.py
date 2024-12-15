@@ -12,9 +12,9 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
-from decouple import config
+# from decouple import config
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = '562e@%v80abcyppkei)e6q(5n0+e=1ue6slvprzpls=2tfg7xy'
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "crispy_bootstrap4",
     'tailwind',
     'theme',
+    
 ]
 
 TAILWIND_APP_NAME = 'theme'
